@@ -187,16 +187,18 @@ li a {
    width: 100%;
   grid-gap: 5px;
    grid-template-columns: 1fr 2fr 1fr;
- grid-template-rows: 1fr 2fr 2fr 4fr 2fr 1fr;
+ grid-template-rows: 20% 1fr 20% 2fr 2fr auto;
  grid-template-areas:
  "header header tools "
  "hero hero hero"
  "articleImage articleImage ads"
  "articleListing articleListing articleListing"
  "sidebar sidebar sidebar"
- "footer footer footer ";
+ "footer  footer footer";
 
 }
+
+
 }
 
 
@@ -204,7 +206,7 @@ li a {
  .wrapper { 
    width: 100%;
   grid-gap: 5px;  
-    grid-template-rows: 1fr 1fr 2fr 2fr 2fr 3fr 2fr 1fr ; 
+    grid-template-rows: 1fr 10% 1fr 20% 2fr 2fr 2fr auto ; 
   grid-template-columns: 1fr;
    grid-template-areas: 
      "header"
